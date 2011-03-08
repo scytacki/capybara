@@ -6,6 +6,7 @@ require "bundler/setup"
 require 'rspec'
 require 'capybara'
 require 'capybara/spec/driver'
+require 'capybara/spec/dsl'
 require 'capybara/spec/session'
 
 alias :running :lambda

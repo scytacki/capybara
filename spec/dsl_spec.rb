@@ -173,7 +173,7 @@ describe Capybara do
       @session = Capybara
     end
 
-    it_should_behave_like "session"
+    it_should_behave_like "dsl"
     it_should_behave_like "session without javascript support"
 
     it "should be possible to include it in another class" do
